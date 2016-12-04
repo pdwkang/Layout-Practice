@@ -1,32 +1,51 @@
 .margin-bot{
-	margin: 20px 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	/* border: 1px solid black; */
 }
 
 .margin-10{
-	margin: 10px 0 25px 0;
+	margin-top: 10px;
+	margin-bottom: 25px;
 }
 
 .height-1{
+	height: 35px;
+	line-height: 35px;
+}
+
+.height-2{
 	height: 80px;
 	line-height: 80px;
 }
 
-.height-2{
-	height: 200px;
-	line-height: 200px;
+.height-2-ad{
+	height: 164px;
+	line-height: 164px;
+	background-color: black;
 }
 
-.height-2-ad{
-	height: 275px;
-	line-height: 275px;
+.height-4-ad{
+	background-color: black;
+	margin-top: 10px;
+	height: 150px;
+	line-height: 150px;
+	margin-left: 15px;
+	color: white;
 }
 
 .height-4{
-	height: 350px;
-	line-height: 350px;
+	height: 150px;
+	line-height: 150px;
+}
+.margin-5{
+	margin-top: 10px;
+	margin-bottom: 15px;
 }
 
+.height-5{
+	margin-bottom: 1px;
+}
 .height-6{
 	height: 50px;
 	line-height: 50px;
@@ -34,4 +53,19 @@
 
 h4{
 	color: black;
+}
+
+.hero-margin{
+	margin-bottom: -10px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+.hero-call-padding{
+	padding-bottom: 5px;
+}
+
+.empty-space{
+	height: 20px;
+	background-color: white;
 }
